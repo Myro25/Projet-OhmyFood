@@ -3,10 +3,11 @@
     background-color: #F6F6F6;
     margin: auto;
     padding: 30px 0 30px 0;
+    overflow: hidden;
 }
 
 .Card h2 {
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding: 0 0 30px 0;
     font-family: Roboto;
@@ -19,16 +20,27 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
 
 }
 
+.restaurant a {
+    text-decoration: none;
+}
+
+.restaurant a:visited {
+    color: #000;
+    /* Couleur de texte pour les liens visités */
+}
+
 .restaurant div {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     background-color: white;
     margin: 0 auto;
     border-radius: 15px;
+
 }
 
 .restaurant img {
@@ -37,4 +49,26 @@
     display: block;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
+    object-position: center 60%;
+}
+
+.restaurant-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+}
+
+.restaurant-text h3 {
+    margin: 10px 0 0 0;
+}
+
+.restaurant-text p {
+    margin: 0 0 10px 0;
+}
+
+.restaurant svg {
+    float: right;
+    padding-top: 20px;
+    font-weight: 700;
+    margin-right: 18px;
 }
