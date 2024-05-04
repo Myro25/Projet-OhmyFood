@@ -1,0 +1,31 @@
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.fonctionnement h2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fonctionnement ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.fonctionnement li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #F6F6F6;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
