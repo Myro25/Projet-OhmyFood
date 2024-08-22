@@ -1,0 +1,19 @@
+//utils
+@import "./utils/variables.scss";
+@import "./utils/placeholders.scss";
+@import "./utils/mixins.scss";
+
+//template
+@import "./template/template.scss";
+
+//layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+//components 
+@import "./components/btn.scss";
+@import "./components/list.scss";
+
+//pages 
+@import "./pages/accueil.scss";
+@import "./pages/restaurant.scss";
