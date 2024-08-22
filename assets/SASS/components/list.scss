@@ -50,6 +50,7 @@
     background: linear-gradient(to right, #99E2D0 50%, transparent 50%);
 
 
+
 }
 
 /*
@@ -57,8 +58,8 @@
     justify-content: flex-start;
     width: 60%;
     margin: 0 auto;
-
 */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -228,24 +229,25 @@ button:hover {
 
 }
 
-/* 
-+ hover   & .list-item:hover {
-        & p {
-            width: 67%;
-        }
+/*
++hover & .list-item:hover {
+    & p {
+        width: 67%;
+    }
 
-        & strong {
-            right: 6.5rem;
-        }
+    & strong {
+        right: 6.5rem;
+    }
 
-        & span {
-            right: 0;
+    & span {
+        right: 0;
 
-            & i {
-                transform: rotate(0deg);
-            }
+        & i {
+            transform: rotate(0deg);
         }
     }
+}
+
 & span {
     position: absolute;
     top: 0;
@@ -264,4 +266,4 @@ button:hover {
 & .fa-check-circle {
     transform: rotate(-240deg);
     transition: all 0.5s;
-} */
+    */
